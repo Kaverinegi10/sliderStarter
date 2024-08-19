@@ -14,9 +14,7 @@ function Cards(props) {
     else{
       setIndex(index-1);
     }
-   
-
-  }
+   }
   function rightHandler(){
     if(index +1 >= reviews.length){
       setIndex(0);

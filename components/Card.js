@@ -1,8 +1,6 @@
 import React from 'react'
 import { FaQuoteLeft,FaQuoteRight } from "react-icons/fa";
 
-
-
 function Card(props) {
 
     let review=props.review;
