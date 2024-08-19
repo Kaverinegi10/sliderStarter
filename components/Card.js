@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaQuoteLeft,FaQuoteRight } from "react-icons/fa";
-//import { FaAngleRight,FaAngleLeft } from "react-icons/fa6";
+
 
 
 function Card(props) {
@@ -11,45 +11,37 @@ function Card(props) {
         return <div>.</div>;
     }
   return (
-    <div>
+    <div className='flex flex-wrap flex-col md:relative  '>
 
-    <div>
-    <img src={review.image}/>
+    <div className='absolute top-[-7rem] z-[10] mx-auto'>
+    <img
+     className="aspect-square rounded-full w-[140px] h-[140px] z-40 relative"
+      src={review.image}/>
+
+     <div className='w-[140px] h-[140px] rounded-full bg-violet-500 absolute top-[-6px] z-[20] left-[10px]'></div>
 
     </div>
 
-        <div>
-        <p>{review.name}</p>
+        <div className='text-center mt-7'>
+        <p className='font-bold  text-2xl captialize '>{review.name}</p>
+        <p className='text-violet-300 uppercase text-sm'>{review.job}</p>
         </div> 
 
-        <div>
-        <p>{review.job}</p>
-        </div>
+      
 
-        <div>
+        <div className='text-violet-400 mx-auto mt-5'>
             <FaQuoteLeft/>
             </div>
 
-            <div>
+            <div className='text-center mt-4 text-slate-500'>
             <p>{review.text}</p>
             </div>
             
-            <div>
+            <div className='text-violet-400 mx-auto mt-5'>
           <FaQuoteRight/>
             </div>
 
-       <div>
-        <button>
-prv
-        </button>
-        <button>
-next
-        </button>
-       </div>
-
-       <div>
-        Suprise Me
-       </div>
+       
 
 
        
