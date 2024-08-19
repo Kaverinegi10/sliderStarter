@@ -26,13 +26,14 @@ function Card(props) {
         <p className='font-bold  text-2xl captialize '>{review.name}</p>
         <p className='text-violet-300 uppercase text-sm'>{review.job}</p>
         </div> 
+
        <div className='text-violet-400 mx-auto mt-5'>
             <FaQuoteLeft/>
-            </div>
+        </div>
 
-            <div className='text-center mt-4 text-slate-500'>
+        <div className='text-center mt-4 text-slate-500'>
             <p>{review.text}</p>
-            </div>
+        </div>
             
             <div className='text-violet-400 mx-auto mt-5'>
           <FaQuoteRight/>
