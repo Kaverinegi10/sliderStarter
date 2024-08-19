@@ -26,10 +26,7 @@ function Card(props) {
         <p className='font-bold  text-2xl captialize '>{review.name}</p>
         <p className='text-violet-300 uppercase text-sm'>{review.job}</p>
         </div> 
-
-      
-
-        <div className='text-violet-400 mx-auto mt-5'>
+       <div className='text-violet-400 mx-auto mt-5'>
             <FaQuoteLeft/>
             </div>
 
