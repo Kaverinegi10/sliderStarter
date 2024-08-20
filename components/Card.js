@@ -12,7 +12,7 @@ function Card(props) {
         return (
     <div className='flex flex-wrap flex-col md:relative  '>
     <div className='absolute top-[-7rem] z-[10] mx-auto'>
-    
+
     <img
      className="aspect-square rounded-full w-[140px] h-[140px] z-40 relative"
       src={review.image}/>
@@ -34,7 +34,7 @@ function Card(props) {
             <p>{review.text}</p>
         </div>
             
-            <div className='text-violet-400 mx-auto mt-5'>
+        <div className='text-violet-400 mx-auto mt-5'>
           <FaQuoteRight/>
             </div>
     </div>
