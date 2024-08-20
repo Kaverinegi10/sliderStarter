@@ -36,7 +36,7 @@ function Card(props) {
             
         <div className='text-violet-400 mx-auto mt-5'>
           <FaQuoteRight/>
-            </div>
+        </div>
     </div>
   )
 }
