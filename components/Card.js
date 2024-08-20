@@ -8,6 +8,7 @@ function Card(props) {
     if (!review) {
         return <div>.</div>;
     }
+    
   return (
     <div className='flex flex-wrap flex-col md:relative  '>
 
